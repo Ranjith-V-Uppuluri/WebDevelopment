@@ -1,0 +1,105 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-page
+{
+    height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(farm3.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+nav ul li button
+{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+nav ul li button:hover
+{
+    color: aqua;
+}
+nav ul li a:hover
+{
+    color: aqua;
+}
+a
+{
+    text-decoration: none;
+    color:White;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.services
+{
+    color: whitesmoke;
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+h1
+{
+    height: 10px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: white;
+    padding-bottom: 110px;
+}
+
+h1:after
+{
+    content: '';
+    
+    background: white;
+    display: block;
+    width: 150px;
+    height: 3px;
+    margin: 10px auto;
+}
+
+.col-md-3:hover{
+    
+    box-shadow: 5px 7px 9px -3px rgba(255,255,255,0.75);
+    cursor: :pointer;
+}
